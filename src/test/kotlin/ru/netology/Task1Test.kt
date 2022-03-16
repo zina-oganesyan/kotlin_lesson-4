@@ -8,7 +8,7 @@ internal class Task1Test {
     @Test
     fun `calculateCommission for VK_PAY`() {
         assertEquals(
-            1,
+            0,
             calculateCommission(VK_PAY, 1000_00, 0, 0)
         )
     }
